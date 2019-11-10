@@ -1,0 +1,262 @@
+# Page settings
+
+baseURL = "https://viniciusou.github.io/"
+languageCode = "en"
+title = "Vinicius Uemura's resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "viniciusou"
+    description = "Vinicius Uemura's resume"
+
+
+
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Vinicius Uemura"
+        tagline = "Software Developer"
+        avatar = "me.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Maringá - Brazil"
+
+        [[params.contact.list]]
+        style = "fas"
+        icon = "fa-phone-square"
+        url = "tel:#"
+        text = "+55 44 98419-8873"
+        [[params.contact.list]]
+        style = "fab"
+        icon = "fa-github-square"
+        url = "//github.com/viniciusou"
+        text = "viniciusou"
+        [[params.contact.list]]
+        style = "fab"
+        icon = "fa-linkedin"
+        url = "//linkedin.com/in/vuemura"
+        text = "vuemura"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "ASP.NET"
+        [[params.skills.list.items]]
+        details = ".NET Core"
+        [[params.skills.list.items]]
+        details = "Angular"
+        [[params.skills.list.items]]
+        details = "Xamarin"
+        [[params.skills.list.items]]
+        details = "C#/Go"
+        [[params.skills.list.items]]
+        details = "Hugo"
+        [[params.skills.list.items]]
+        details = "Git/Bitbucket"
+        [[params.skills.list.items]]
+        details = "Sql Server"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Scrum"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    [params.certifications]
+        enable = true
+
+        [[params.certifications.list]]
+        name = "C# Microsoft Specialist"
+        body = "483 - Programming in C#"
+        date = "2015"
+        
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "MBA in Mobile Applications Project"
+        university = "Instituto de Gestão e Tecnologia da Informação"
+        dates = "2016 - 2017"
+        [[params.education.list]]
+        degree = "BSc in Chemical Engineering"
+        university = "Universidade Estadual de Maringá"
+        dates = "2007 - 2010"
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "Portuguese"
+        level = "Native"
+        [[params.languages.list]]
+        name = "English"
+        level = "Fluent"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Fluent"
+
+
+
+
+
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Software developer with 8+ years experience crafting web and mobile apps. Knowledge of front end and back end languages and frameworks as well as best coding practices. Experience working in agile teams.  Fluent in English and Spanish."
+
+
+
+
+
+
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Mobile Developer"
+        dates = "2018 - 2019"
+        company = "Blend IT"
+        details = "Participated in the Electrolux Home+ app development (Android/iOS). The app is used to control smart appliances. Developed using Xamarin and IoT communication interface."
+
+        [[params.experience.list]]
+        title = "Mobile Developer/Back end Developer"
+        dates = "2017 - 2018"
+        company = "Madero"
+        details = "Developed mobile apps in Xamarin using MvvmCross and Prism frameworks. Developed backend systems using .NET C#."
+        
+        [[params.experience.list]]
+        title = "Web Developer"
+        dates = "2017"
+        company = "Mirum Agency"
+        details = "Developed web applications using Angular and C# ASP.NET MVC. Developed websites in Drupal."
+
+        [[params.experience.list]]
+        title = "Sofware Developer"
+        dates = "2015 - 2017"
+        company = "Pix"
+        details = "Led development of PixPay (Android/iOS) and Trinnus (Android/iOS) mobile apps. Migrated company server and database services achieving 60% cost savings. Developed C# .NET backend systems for POS and mobile apps."
+
+        [[params.experience.list]]
+        title = ".NET Developer"
+        dates = "2015"
+        company = "Indra"
+        details = "Developed web ASP.NET applications using Ajax, Javascript and CSS. Developed C# and VB applications for insurance industry. Designed stored procedures, queries and views in Microsoft SQL."
+
+        [[params.experience.list]]
+        title = "Engineer / Software Developer"
+        dates = "2010 - 2013"
+        company = "Soteica"
+        details = "Developed engineering software applications with .NET Framework (C# and VB). Designed database stored procedures, queries and views in Microsoft SQL. Collaborated in the development of 3D Industrial Simulator (using Microsoft XNA)."
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Volunteering"
+        [[params.information.list.items]]
+        details = "2019 · Travelled as a volunteer worker through South America"
+        [[params.information.list.items]]
+        details = "2018 · Taught digital literacy and Scratch programming language for children"
+
+        [[params.information.list]]
+        title = "Interests"
+        [[params.information.list.items]]
+        details = "Travelling, Sports, Gardening"
+
+
+
+
+
+
+
+
+
