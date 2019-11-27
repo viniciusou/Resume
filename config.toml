@@ -71,21 +71,23 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list.items]]
         details = "Angular"
         [[params.skills.list.items]]
+        details = "Entity Framework"
+        [[params.skills.list.items]]
         details = "Xamarin"
         [[params.skills.list.items]]
         details = "C#/Go"
         [[params.skills.list.items]]
         details = "Hugo"
         [[params.skills.list.items]]
-        details = "Git/Bitbucket"
-        [[params.skills.list.items]]
         details = "Sql Server"
         [[params.skills.list.items]]
         details = "PostgreSQL/MySQL"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
+        details = "Git/Bitbucket"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
+        details = "TDD"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
         [[params.skills.list.items]]
         details = "Scrum"
 
@@ -129,13 +131,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.education.list]]
-        degree = "MBA in Mobile Applications Project"
-        university = "Instituto de Gestão e Tecnologia da Informação"
+        degree = "MBA in Mobile Development"
+        university = "IGTI"
         dates = "2016 - 2017"
         [[params.education.list]]
-        degree = "BSc in Chemical Engineering"
+        degree = "BASc in Chemical Engineering"
         university = "Universidade Estadual de Maringá"
-        dates = "2007 - 2010"
+        dates = "2002 - 2007"
 
 
 
@@ -161,28 +163,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-    [params.interests]
-        enable = true
-
-        [[params.interests.list]]
-        name = "Climbing"
-        [[params.interests.list]]
-        name = "Snowboarding"
-        [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Travelling"
-
-
-
-
-
-
-
-
     [params.summary]
         enable = true
-        text = "Software developer with 8+ years experience crafting web and mobile apps. Knowledge of front end and back end languages and frameworks as well as best coding practices. Experience working in agile teams.  Fluent in English and Spanish."
+        text = "Software developer with 8+ years experience crafting web and mobile apps. Knowledge of front-end and back-end languages, frameworks and best coding practices. Experience working in agile teams.  Fluent in English and Spanish."
 
 
 
@@ -195,40 +178,40 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Mobile Developer"
+        title = "Software Developer"
         dates = "2018 - 2019"
         company = "Blend IT"
-        details = "Participated in the Electrolux Home+ app development (Android/iOS). The app is used to control smart appliances. Developed using Xamarin and IoT communication interface."
+        details = "Participated in the Electrolux Home+ app development (Android/iOS). The app is used to control smart appliances. Developed using Xamarin, ASP.NET MVC and IoT communication interface."
 
         [[params.experience.list]]
-        title = "Mobile Developer/Back end Developer"
+        title = "Software Developer"
         dates = "2017 - 2018"
         company = "Madero"
-        details = "Developed mobile apps in Xamarin using MvvmCross and Prism frameworks. Developed backend systems using .NET C#."
+        details = "Developed mobile apps in Xamarin using MvvmCross and Prism frameworks. Developed back-end systems using ASP.NET C#."
         
         [[params.experience.list]]
         title = "Web Developer"
         dates = "2017"
         company = "Mirum Agency"
-        details = "Developed web applications using Angular and C# ASP.NET MVC. Developed websites in Drupal."
+        details = "Developed web applications using Angular and ASP.NET MVC. Developed websites in Drupal."
 
         [[params.experience.list]]
         title = "Sofware Developer"
         dates = "2015 - 2017"
         company = "Pix"
-        details = "Led development of PixPay (Android/iOS) and Trinnus (Android/iOS) mobile apps. Migrated company server and database services achieving 60% cost savings. Developed C# .NET backend systems for POS and mobile apps."
+        details = "Led development of PixPay (Android/iOS) and Trinnus (Android/iOS) mobile apps. Migrated company servers and database services achieving 60% cost savings. Developed .NET C# back-end systems for POS and mobile apps."
 
         [[params.experience.list]]
         title = ".NET Developer"
         dates = "2015"
         company = "Indra"
-        details = "Developed web ASP.NET applications using Ajax, Javascript and CSS. Developed C# and VB applications for insurance industry. Designed stored procedures, queries and views in Microsoft SQL."
+        details = "Developed web apps using ASP.NET, Ajax, Javascript and CSS. Developed C# and VB applications for insurance industry. Designed stored procedures, queries and views in SQL Server."
 
         [[params.experience.list]]
         title = "Engineer / Software Developer"
         dates = "2010 - 2013"
         company = "Soteica"
-        details = "Developed engineering software applications with .NET Framework (C# and VB). Designed database stored procedures, queries and views in Microsoft SQL. Collaborated in the development of 3D Industrial Simulator (using Microsoft XNA)."
+        details = "Developed engineering software applications with .NET Framework (C# and VB). Designed database stored procedures, queries and views in SQL Server. Collaborated in the development of 3D Industrial Simulator (using Microsoft XNA)."
 
 
 
